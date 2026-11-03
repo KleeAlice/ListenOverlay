@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDisplayName</key>
+	<string>听见</string>
+	<key>CFBundleExecutable</key>
+	<string>ListenOverlay</string>
+	<key>CFBundleIconFile</key>
+	<string>AppIcon</string>
+	<key>CFBundleIdentifier</key>
+	<string>local.ethan.ListenOverlay</string>
+	<key>CFBundleName</key>
+	<string>听见</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0.0</string>
+	<key>CFBundleVersion</key>
+	<string>40</string>
+	<key>LSMinimumSystemVersion</key>
+	<string>26.0</string>
+	<key>LSUIElement</key>
+	<true/>
+	<key>NSAudioCaptureUsageDescription</key>
+	<string>听歌识曲和实时字幕需要读取 Mac 正在播放的声音。不录制麦克风，不保存录音。</string>
+	<key>NSHighResolutionCapable</key>
+	<true/>
+	<key>NSScreenCaptureUsageDescription</key>
+	<string>macOS 把读取系统声音归在「屏幕与系统录音」权限里。听见只读取声音用于听歌识曲和实时字幕，不读取、不保存屏幕画面。</string>
+</dict>
+</plist>

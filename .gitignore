@@ -1,0 +1,4 @@
+# Build output: the app goes to GitHub Releases, not into the repository.
+.build/
+dist/
+.DS_Store
